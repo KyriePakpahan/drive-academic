@@ -9,7 +9,7 @@ Folder ini menyimpan seluruh berkas sumber asli dari tiga folder Google Drive, s
 2. **`soal-uas-resmi/`** (7 PDF unik)
    - Mencakup 5 tahun akademik: `2020/2021`, `2021/2022`, `2022/2023`, `2024/2025`, dan `2025/2026` (termasuk lampiran Tabel Rumus Transformasi-z, DTFT, dan DFT resmi pada `EL3010_UAS_2025-2026_Soal-1-3_dan_Tabel-Rumus.pdf`).
    - Dua salinan identik `SOAL 1` dan `SOAL 2` UAS `2021/2022` yang sebelumnya muncul ganda pada dua folder Google Drive telah dideduplikasi berdasarkan checksum SHA-256.
-   - Catatan lembar asli: halaman kedua `EL3010_UAS_2020-2021_Soal-1-2.pdf` memiliki tajuk cetak `UTS: SOAL 2`, namun pada arsip kompilasi asisten termasuk paket UAS 2020/2021.
+   - Catatan lembar asli: halaman kedua `EL3010_UAS_2020-2021_Soal-1-2.pdf` memiliki tajuk cetak `UTS: SOAL 2`, tetapi pada arsip kompilasi asisten termasuk paket UAS 2020/2021.
 3. **`solusi-arsip-hme/`** (6 PDF arsip lama)
    - Berisi kompilasi asisten, catatan tutorial 2023, serta lembar jawaban mahasiswa (NIM 13219031) untuk UAS 2021/2022.
    - **Peringatan Audit:** Beberapa berkas di folder ini mengandung kekeliruan matematis dan konseptual (misalnya klaim energi $E_x = \infty$ pada UAS 2020/2021 Soal 1, absennya *circular shift* pada UAS 2021/2022 Soal 1, kesalahan tanda fasa pada UAS 2020/2021 Soal 2, serta syarat titik DFT pada UAS 2022/2023 Problem 2). Gunakan pembahasan terverifikasi pada `../02-bank-soal-dan-pembahasan/Bank-Soal-01_UAS-EL3010_2020-2023.docx` sebagai acuan belajar utama.
