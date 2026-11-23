@@ -1,24 +1,27 @@
-# Arsip Mentah UAS EL3009 Elektronika II
+# Arsip Mentah UAS EL3009 Elektronika II (100% Fokus Kisi-Kisi Pekan 9 sampai 15)
 
-Folder ini menyimpan seluruh berkas sumber asli dari dua folder Google Drive ujian, kisi-kisi resmi Ujian 2 pekan 9—15, serta koleksi PR pekan 9—15 dan Kuis 4 dari Google Drive EL3009. Seluruh berkas telah dideduplikasi berdasarkan checksum SHA-256 dan diberi nama secara konsisten.
+Seluruh berkas sumber asli dari Google Drive dan bundel cetak mahasiswa telah dibersihkan dari materi di luar kisi-kisi UAS (*Feedback*, *Oscillator*, *Pembangkit Sinyal*, dan *Filter Butterworth*), dideduplikasi, diurutkan, dan dinamai secara konsisten.
+
+> **Catatan Hak Cipta:** Kedua buku teks rujukan (*Adel S. Sedra & Kenneth C. Smith Ed. 7/8* dan *Daniel W. Hart Power Electronics*) serta slide kuliah dosen hanya dipakai sebagai referensi lokal saat verifikasi dan **tidak** diunggah ke repositori publik ini.
 
 ## Ringkasan Isi
 
-1. **`kisi-kisi/`** (1 berkas)
-   - `Kisi-Kisi_Ujian-2_EL3009_Pekan-9-15.png`: daftar resmi 5 topik Ujian 2 (DC-DC Converter, Building Block, Differential Amplifier, Multistage Amplifier, dan Operational Amplifier).
-2. **`soal-uas-resmi/`** (4 PDF unik)
-   - `EL3009_UAS_2021_Soal-1-4.pdf`: 4 soal (Cascode Amplifier, Penguat Diferensial beban aktif, CMOS Op-Amp 2-tingkat, dan *Feedback Amplifier*).
-   - `EL3009_UTS_2022-2023_Soal-1-3_Arsip-Folder-UAS.pdf`: tajuk asli lembar soal adalah **Ujian Tengah Semester EL3009 Elektronika II, Semester I 2022/2023 (13 Oktober 2022)** yang tersimpan di folder UAS Drive. Soal 1 (*Current Mirror* degenerasi $R_S$) dan Soal 2 (*Differential Amplifier*) relevan dengan kisi-kisi Ujian 2, sedangkan Soal 3 (*Feedback Amplifier*) ditempatkan di lampiran.
-   - `EL3009_UAS_2024_Soal-1-4.pdf`: UAS resmi 31 Desember 2024 (tutup buku, 150 menit) berisi 4 soal yang sepenuhnya sesuai kisi-kisi Ujian 2 (*Boost Converter*, Blok Pembangun IC, Penguat Diferensial beban aktif, dan Op-Amp *Folded-Cascode*).
-   - `EL3009_Ujian-2_2025_Soal-1-4_dan_Jawaban-Mahasiswa.pdf`: lembar Ujian 2 beserta jawaban tulis tangan mahasiswa untuk keempat soal kisi-kisi.
-3. **`arsip-hme-2022/`** (8 PDF: 4 soal + 4 jawaban mahasiswa NIM `13219031`)
-   - `HME-2022_Soal-4_DC-DC-Converter.pdf` (*Buck-Boost Converter*) sesuai kisi-kisi Ujian 2 dan dibahas pada Bank Soal 02.
-   - `HME-2022_Soal-1_Oscillator.pdf`, `HME-2022_Soal-2_Pembangkit-Sinyal.pdf`, dan `HME-2022_Soal-3_Filter-Butterworth.pdf` merupakan topik kurikulum lama di luar kisi-kisi Ujian 2 sehingga dipisahkan ke Bank Soal 04 (Lampiran).
-   - **Catatan Audit:** Jawaban tulis tangan pada arsip ini memuat beberapa kekeliruan teknis (antara lain kesalahan rumus frekuensi sebesar faktor 10 pada Soal 2 serta salah tulis satuan $\mu\text{F}$ alih-alih $\mu\text{H}$ pada Soal 4). Gunakan pembahasan terverifikasi di `../02-bank-soal-dan-pembahasan/` sebagai acuan utama.
-4. **`pr-dan-kuis-pekan-9-15/`** (9 berkas: 7 PDF PR 2024, 1 PDF Kuis 4 2025, 1 ekspor solusi PR-07 2026)
-   - Mencakup `PR-05` (*Buck Converter* + GaN 1 MHz), `PR-07` (*Boost Converter* + EIA E10 + ESR), `PR-08` (Blok Pembangun IC), `PR-09` (Penguat Diferensial + CMRR + *Cascode Tail*), `PR-10` (Penguat Diferensial PMOS beban aktif), `PR-11` (Op-Amp CMOS 2-tingkat), `PR-12` (Op-Amp *Folded-Cascode*), `Kuis-4 2025` (Penguat Diferensial beban aktif), dan ekspor solusi `PR-07 2026` (pasangan *source-coupled* beban aktif).
-   - **Catatan Audit:** Beberapa solusi tulis tangan pada PR 8, PR 11, PR 12, serta tabel pada Kuis 4 memuat kekeliruan tanda tegangan, substitusi kuadrat, atau salah ketik tipe MOSFET yang seluruhnya diaudit dan dikoreksi di `../02-bank-soal-dan-pembahasan/Bank-Soal-03_Kurasi-PR-Pekan-9-15_dan_Kuis-4-EL3009.docx`.
-
-## Catatan Buku Referensi
-
-Buku acuan kuliah (*Microelectronic Circuits* Ed. 7 oleh Adel S. Sedra & Kenneth C. Smith serta *Power Electronics* oleh Daniel W. Hart) digunakan selama penyusunan untuk menjaga kesesuaian notasi, definisi parameter, dan nomor persamaan, tetapi berkas PDF buku berhak cipta tidak diunggah ke repositori publik ini.
+1. **`kisi-kisi/`**
+   - `Kisi-Kisi_Ujian-2_EL3009_Pekan-9-15.png`: daftar resmi 5 topik Ujian 2 (*DC-DC Converter*, *Building Block*, *Differential Amplifier*, *Multistage Amplifier*, *Operational Amplifier*).
+2. **`soal-uas-resmi/`** (4 PDF arsip ujian resmi 2021 sampai 2025)
+   - `EL3009_UAS_2021_Soal-1-4.pdf`: Soal 1 sampai 3 masuk kisi-kisi UAS (dibahas di Bank Soal 02); Soal 4 (*Feedback*) berada di luar kisi-kisi dan tidak dibahas.
+   - `EL3009_UTS_2022-2023_Soal-1-3_Arsip-Folder-UAS.pdf`: naskah asli berjudul UTS 2022/2023; Soal 1 sampai 2 (*Current Mirror* & *Differential Amplifier*) masuk kisi-kisi UAS (dibahas di Bank Soal 02); Soal 3 (*Feedback*) di luar kisi-kisi dan tidak dibahas.
+   - `EL3009_UAS_2024_Soal-1-4.pdf`: 100% masuk kisi-kisi UAS (dibahas penuh di Bank Soal 01).
+   - `EL3009_Ujian-2_2025_Soal-1-4_dan_Jawaban-Mahasiswa.pdf`: 100% masuk kisi-kisi UAS beserta pindaian lembar jawaban mahasiswa untuk audit (dibahas penuh di Bank Soal 01).
+3. **`arsip-hme-2022/`** (2 PDF fokus UAS)
+   - `HME-2022_Soal-4_DC-DC-Converter.pdf` dan `HME-2022_Jawaban-13219031_No-4.pdf` (Topik 1 *Buck-Boost Converter*; dibahas dan diaudit di Bank Soal 02). Berkas Soal 1 sampai 3 HME 2022 (*Oscillator*, *Pembangkit Sinyal*, *Butterworth Filter*) telah dihapus karena di luar kisi-kisi UAS.
+4. **`pr-dan-kuis-pekan-9-15/`** (20 berkas PR 2024 sampai 2026 & Kuis 4 2025)
+   - Arsip PR 2024 (`PR-05` sampai `PR-12`), `Kuis-4_2025_Penguat-Diferensial_Soal-dan-Solusi.pdf`, arsip resmi PR 2025 (`PR-06` sampai `PR-11`, meliputi *Buck* 30 V, *Boost* 5 V ke 15 V, *Building Block*, *Diff Amp* CMRR, *Diff Amp* 3 Cermin Arus, dan *Folded-Cascode* 80 dB), serta PR 2026 (`PR-06` *Buck* 30 V, `PR-07` *Source-Coupled*, dan `PR-08` *Diff Amp* NMOS beban PMOS). Seluruhnya dibahas dengan gaya penuntun di Bank Soal 03.
+5. **`bundel-elektroteknik-2018/`** (5 PDF rapi, 42 halaman unik dari 45 halaman pindaian mentah `20261123.pdf`)
+   - Sudah dideduplikasi (3 halaman ganda dihapus), diurutkan ulang dari halaman buku `54` sampai `123`, dan dikompresi tajam (total `7,04 MB` dari semula `145,2 MB`):
+     - `01_Bab-Differential-Amplifier_Soal-1-6_dan_Solusi_hal-54-63.pdf` (11 hal)
+     - `02_Bab-Multistage-dan-OpAmp-CMOS_Soal-1-6_dan_Solusi_hal-64-73.pdf` (10 hal)
+     - `03_Bab-Power-Electronics-DCDC_Soal-1-6_dan_Solusi_hal-102-107.pdf` (5 hal)
+     - `04_UTS-EL3009-2017_Soal-1-4_dan_Solusi_hal-108-119.pdf` (12 hal)
+     - `05_Ujian-I-EL3009-2018_Soal-1-4_hal-120-123.pdf` (4 hal)
+   - Soal-soal terbaik dari bundel ini dikurasi, diverifikasi SymPy, dan dibahas ulang secara lengkap pada `../02-bank-soal-dan-pembahasan/Bank-Soal-04_Bundel-Elektroteknik-2018_Fokus-5-Topik-UAS.docx`.
